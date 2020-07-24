@@ -21,6 +21,14 @@ export default function MainView() {
             <div className="col-md-6 mainViewRoutes">
               <h3>All Routes - GET Requests / JSON</h3>
               <br></br>
+              <h6 className="fetchUrl">
+                Fetch URL:
+                <br></br>
+                <span id="spanUrl">
+                  https://europe-west1-nodeapi-2f12c.cloudfunctions.net/app/
+                  <span id="spanUrlRoute">**route**</span>
+                </span>
+              </h6>
               <div className="routeWrapper">
                 <span>
                   <p>

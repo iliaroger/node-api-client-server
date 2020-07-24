@@ -16,6 +16,28 @@
   background-color: white;
 }
 
+.fetchUrl {
+  text-align: left;
+  margin-left: 5%;
+  padding: 5px 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+  color: rgb(43, 43, 43);
+}
+
+#spanUrl {
+  color: rgb(43, 43, 43);
+  font-family: inter-regular;
+  font-size: 12px;
+}
+
+#spanUrlRoute {
+  color: rgb(0, 183, 255);
+  font-family: inter-regular;
+  font-size: 12px;
+}
+
 .mainViewRow .col-md-6:nth-child(1) {
   margin-top: 2%;
 }
