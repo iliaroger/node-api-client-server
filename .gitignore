@@ -8,6 +8,8 @@ firebase-debug.log*
 
 functions/.env
 
+build
+
 # Firebase cache
 .firebase/
 
